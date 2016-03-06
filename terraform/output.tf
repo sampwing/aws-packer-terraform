@@ -1,5 +1,5 @@
 output "ip" {
-	value = "${aws_instance.web.public_ip}"
+	value = "${aws_instance.redis.public_ip}"
 }
 
 output "eip" {
@@ -7,5 +7,5 @@ output "eip" {
 }
 
 output "sgid" {
-	value = "${aws_security_group.sg_web.id}"
+	value = "${aws_security_group.sg_redis.id}"
 }
