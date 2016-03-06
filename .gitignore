@@ -1,0 +1,3 @@
+awscreds.tfvars
+*tfstate*
+id_rsa*
