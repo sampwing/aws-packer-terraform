@@ -1,3 +1,6 @@
 awscreds.tfvars
 *tfstate*
 id_rsa*
+.vagrant
+Berksfile.lock
+packer/vendor
