@@ -2,8 +2,12 @@
 
 to see plan
 
-`terraform plan -var-file="awscreds.tfvars"`
+```shell
+terraform plan -var-file="awscreds.tfvars"
+```
 
 to see outputs
 
-`terraform output ip`
+```shell
+terraform output ip
+```
